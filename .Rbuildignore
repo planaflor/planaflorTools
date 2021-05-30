@@ -1,0 +1,11 @@
+^renv$
+^renv\.lock$
+^LICENSE\.md$
+^README\.Rmd$
+^README\.html$
+^.*\.Rproj$
+^\.Rproj\.user$
+^Makefile$
+^\.dev$
+^\.pre-commit-config\.yaml$
+^\.github$
