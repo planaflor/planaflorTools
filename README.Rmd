@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # planaflorData
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/planaflor/planaflorTools/workflows/R-CMD-check/badge.svg)](https://github.com/planaflor/planaflorTools/actions)
 <!-- badges: end -->
 
 The goal of planaflorData is to provide tools to facilitate data wrangling and visualization of the PlanaFlor project.
@@ -29,7 +30,7 @@ if (!require("remotes")) install.packages("remotes)
 remotes::install_github("planaflor/planaflorTools")
 ```
 
-```{r}
+```{r, eval = FALSE}
 library(planaflorTools)
 get_planaflor_data_dir()
 ```
